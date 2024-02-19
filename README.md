@@ -14,5 +14,5 @@ Usage:<br>
       • Click “save” can output the result of correlation and partial correlation analysis as a csv file.<br>
 
 <br>
-Note: The researchers in many fields may benefit from pyCASW by obtaining a fast way to analysis the coupling relationship between multiple variables in complex systems.<br>
+Note: Test data is provided. The researchers in many fields may benefit from pyCASW by obtaining a fast way to analysis the coupling relationship between multiple variables in complex systems.<br>
 Thank you for using pyCASW!
