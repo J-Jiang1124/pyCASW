@@ -228,10 +228,10 @@ def show2():
     tk.Label(top2, text='black: p>=0.05; blue: p<0.05*; green: p<0.01**; red: p<0.001***').pack()
     figure = Figure(figsize=(7,5),dpi=100)
     ax = figure.add_subplot(111)
-    resultdf1=resultdf[resultdf['p value']>0.05]
-    resultdf2=resultdf[(resultdf['p value']<=0.05)&(resultdf['p value']>0.01)]
-    resultdf3=resultdf[(resultdf['p value']<=0.01)&(resultdf['p value']>0.001)]
-    resultdf4=resultdf[resultdf['p value']<=0.001]
+    resultdf1=resultdf[resultdf['p value']>=0.05]
+    resultdf2=resultdf[(resultdf['p value']<0.05)&(resultdf['p value']>=0.01)]
+    resultdf3=resultdf[(resultdf['p value']<0.01)&(resultdf['p value']>=0.001)]
+    resultdf4=resultdf[resultdf['p value']<0.001]
     x1 = resultdf1["mean value"]
     y1 = resultdf1["correlation coefficient"]
     x2 = resultdf2["mean value"]
