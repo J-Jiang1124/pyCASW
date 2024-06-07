@@ -1,5 +1,5 @@
 # pyCASW (A Python-based framework for Coupled Analysis of Input Intensity and Output Intensity of Arable Land Based on Sliding Windows)
-pyCASW is a GUI (graphical user interface) made in tkinter for coupled analysis of input intensity and output intensity of arable land based on sliding window. It integrates correlation and partial correlation analysis. By calculating the correlation coefficient between input intensity and output intensity in different value ranges, the influence process of input intensity on output intensity can be explained.<br><br>
+pyCASW is a GUI (graphical user interface) made in tkinter for coupled analysis of input intensity and output intensity of arable land based on sliding windows. It integrates correlation and partial correlation analysis. By calculating the correlation coefficient between input intensity and output intensity in different value ranges, the influence process of input intensity on output intensity can be explained.<br><br>
 Usage:<br>
 1.Input:<br>
       •	Click “Select File” to select a csv file (Each sample of the csv file needs to be organized by line, and columns represent indicators.).<br>
