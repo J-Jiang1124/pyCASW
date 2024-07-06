@@ -245,7 +245,7 @@ def show2():
     ax.scatter(x3,y3,s=8,c='g')
     ax.scatter(x4,y4,s=8,c='r')
     ax.set_xlabel(str(cbox1.get()),fontproperties = 'Arial',size =12)
-    ax.set_ylabel(str(cbox2.get()),fontproperties = 'Arial',size =12)
+    ax.set_ylabel('Correlation coefficient',fontproperties = 'Arial',size =12)
     canvas = FigureCanvasTkAgg(figure,top2)
     canvas.draw()
     canvas.get_tk_widget().pack()
